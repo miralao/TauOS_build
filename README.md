@@ -1,71 +1,102 @@
 # StellarOS: a 1MB lightweight fork of Android
-***For kids and for everyone!***
+#### *For kids and for everyone!*
 
-StellarOS is a port-to-anywhere flavor of Android that can run on literally anything, like the Doom of Android flavors. Everything you need to boot it is in a 1-megabyte `.jar` or `.wasm` boot file.
+**StellarOS** is a flavor of Android that can run on literally anything, like the Doom of Android flavors. Everything you need to boot it is in a 1-megabyte `.jar` or `.wasm` boot file.
 
-The StellarBook is a $20 pocket computer, portable to everything but especially the Nintendo DS, that helps kids save up for what really matters in their lives.
+The **StellarBook** is a $20 pocket computer that helps kids save up for what really matters in their lives. It's made up of StellarOS, a mouse and keyboard, and then literally anything with a screen and a motherboard. Old Tamagotchi? Make it a StellarBook!
 
 Setup is easy--as soon as it boots, the computer opens to Home, where **Kya the Friendly Crow-Demon** greets them. She offers to leave if they've got everything mastered already, but if they choose for her to stay, she will excitedly guide the user through setup and owning their very own computer.
 
-Everything is meant **for kids**. Parental controls are nearly impossible to set up and require the parent to solve a literal maze.
+Everything is meant **for kids**, geared towards **the things kids want to do**: have fun, and learn! And kids do want to learn, as long as they have fun while they do it.
 
-## Inspirations
-* Nintendo Switch
-* Nintendo DS
-* PlayStation 5
-* RaspberryPi OS
-* Debian Trixie
-* Android
-* Paranoid Android
-* MacOS
-* Macintosh OS
-* iPadOS
+## Pages
+The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **My Computer**. Each relies mainly on an intuitive system of icons and graphic elements to communicate what the user is supposed to do there, but also has written labels to clear things up. This will make the OS easily localizable.
 
-## Pages/screens
 ### Home page
 [usr/Rowan/Home/HomePage.svg]
+```
+=> Play
+=> Work
+=> MyComputer
+=> Camera
+=> Web
+```
 
 ### Play page
 [usr/Rowan/Play/PlayPage.svg]
+```
+=> Arcade
+=> Radio
+=> Jam Maker
+=> Television
+=> Movie Maker
+=> Sketchbook
+=> IRC
+```
 
 ### Work page
 [usr/Rowan/Work/WorkPage.svg]
+```
+=> Canvas
+=> Notepad
+=> StarSheets
+=> StarSlides
+=> Wikipedia
+=> World Explorer
+```
+
+### My Computer page
+[usr/Rowan/MyComputer/MyComputerPage.svg]
+```
+=> Settings
+=> FileTree
+```
 
 ## Directory structure
 ```
 /usr
 	/Rowan
         /Home
+            ../Play
+			../Work
+            ../MyComputer
 	        HomePage.svg
-            Arcade.link
-            Radio.link
-            Television.link
-            Camera.link
-            Notepad.link
-            WorldMap.link
-            FileTree.link
-            MyComputer.link
-            Chat.link
-            Web.link
-        /Work
-	        WorkPage.svg
-            EnglishEssay.md
-            LibreText.link
-            Presentation.pptx
+	        Camera.link
+	        Web.link
         /Play
 	        /Art
 	        	Drawing.svg
 	        	Drawing2.xcf
 	        	Drawing3.webp
         	/CameraRoll
-        		IMG_0001.heic
+				IMG_0001.heic
         		IMG_0002.heic
         		IMG_0003.heic
-        	/Media
+			/Media
 	        	ATownCalledPanic.mp4
 	        	PumpIt.wav
 	        	WALL_E.mp4
 	        PlayPage.svg
+			Arcade.link
+            Radio.link
+            JamMaker.link
+            Television.link
+            MovieMaker.link
+			Sketchbook.link
+        /Work
+	        /Documents
+				WorkPage.svg
+	            EnglishEssay.md
+	            Presentation.pptx
+            Canvas.link
+            Notepad.link
+            StarSheets.link
+            StarSlides.link
+            Wikipedia.link
+            WorldExplorer.link
+        /MyComputer
+            Settings.link
+            FileTree.link
 	    /Trash
 	    	PumpIt_cover.wav
 /Applications
