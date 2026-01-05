@@ -13,7 +13,7 @@ Everything is meant **for kids**, geared towards **the things kids want to do**:
 The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **My Computer**. Each relies mainly on an intuitive system of icons and graphic elements to communicate what the user is supposed to do there, but also has written labels to clear things up. This will make the OS easily localizable.
 
 ### Home page
-[usr/Rowan/Home/HomePage.svg]
+[/usrs/Rowan/Home/HOME.xml]
 ```
 => Play
 => Work
@@ -23,7 +23,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 ```
 
 ### Play page
-[usr/Rowan/Play/PlayPage.svg]
+[/usrs/Rowan/Play/PLAY.xml]
 ```
 => Arcade
 => Radio
@@ -35,7 +35,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 ```
 
 ### Work page
-[usr/Rowan/Work/WorkPage.svg]
+[/usrs/Rowan/Work/WORK.xml]
 ```
 => Canvas
 => Notepad
@@ -46,7 +46,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 ```
 
 ### My Computer page
-[usr/Rowan/MyComputer/MyComputerPage.svg]
+[/usrs/Rowan/MyComputer/MYCOMPUTER.xml]
 ```
 => Settings
 => FileTree
@@ -54,13 +54,13 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 
 ## Directory structure
 ```
-/usr
+/usrs
 	/Rowan
         /Home
             ../Play
 			../Work
             ../MyComputer
-	        HomePage.svg
+	        HOME.xml
 	        Camera.link
 	        Web.link
         /Play
@@ -76,7 +76,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 	        	ATownCalledPanic.mp4
 	        	PumpIt.wav
 	        	WALL_E.mp4
-	        PlayPage.svg
+	        PLAY.xml
 			Arcade.link
             Radio.link
             JamMaker.link
@@ -88,6 +88,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 				WorkPage.svg
 	            EnglishEssay.md
 	            Presentation.pptx
+	        WORK.xml
             Canvas.link
             Notepad.link
             StarSheets.link
@@ -95,11 +96,13 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
             Wikipedia.link
             WorldExplorer.link
         /MyComputer
+        	MYCOMPUTER.xml
             Settings.link
             FileTree.link
 	    /Trash
+	    	TRASH.xml
 	    	PumpIt_cover.wav
-/Applications
+/apps
 	/Arcade
 		Arcade.app
 		CrossyRoad.link
