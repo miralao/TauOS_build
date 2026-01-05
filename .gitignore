@@ -4,5 +4,5 @@
 blueprint/
 kati/
 soong/
-boot/Boot.class
-boot/Boot.java
+boot/B.class
+boot/B.java
