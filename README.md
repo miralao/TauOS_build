@@ -9,16 +9,29 @@ Setup is easy--as soon as it boots, the computer opens to Home, where **Kya the 
 
 Everything is meant **for kids**. Parental controls are nearly impossible to set up and require the parent to solve a literal maze.
 
-**Home page**
+## Inspirations
+* Nintendo Switch
+* Nintendo DS
+* PlayStation 5
+* RaspberryPi OS
+* Debian Trixie
+* Android
+* Paranoid Android
+* MacOS
+* Macintosh OS
+* iPadOS
+
+## Pages/screens
+### Home page
 [usr/Rowan/Home/HomePage.svg]
 
-**Play page**
+### Play page
 [usr/Rowan/Play/PlayPage.svg]
 
-**Work page**
+### Work page
 [usr/Rowan/Work/WorkPage.svg]
 
-**Directory structure**
+## Directory structure
 ```
 /usr
 	/Rowan
