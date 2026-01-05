@@ -1,20 +1,31 @@
 # StellarOS: a 1MB lightweight fork of Android
-***For kids and for everyone!***
+#### *For kids and for everyone!*
 
-StellarOS is a port-to-anywhere flavor of Android that can run on literally anything, like the Doom of Android flavors. Everything you need to boot it is in a 1-megabyte `.jar` or `.wasm` boot file.
+**StellarOS** is a flavor of Android that can run on literally anything, like the Doom of Android flavors. Everything you need to boot it is in a 1-megabyte `.jar` or `.wasm` boot file.
 
-## StellarBook
-The StellarBook is a $20 pocket computer, portable to everything (but especially the Nintendo DS), that helps kids save up for what really matters in their lives.
+The **StellarBook** is a $20 pocket computer that helps kids save up for what really matters in their lives. It's made up of StellarOS, a mouse and keyboard, and then literally anything with a screen and a motherboard. Old Tamagotchi? Make it a StellarBook!
 
 Setup is easy--as soon as it boots, the computer opens to Home, where **Kya the Friendly Crow-Demon** greets them. She offers to leave if they've got everything mastered already, but if they choose for her to stay, she will excitedly guide the user through setup and owning their very own computer.
 
-Everything is meant **for kids**. Parental controls are nearly impossible to set up and require the parent to solve a literal maze.
+Everything is meant **for kids**, geared towards **the things kids want to do**: have fun, and learn! And kids do want to learn, as long as they have fun while they do it.
 
 ## Pages
-The desktop GUI is divided into four pages: Home, Play, Work, and My Computer. Each relies mainly on an intuitive system of icons and graphic elements to communicate what the user is supposed to do there, but also has written labels to clear things up. This will make the OS easily localizable.
+The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **My Computer**. Each relies mainly on an intuitive system of icons and graphic elements to communicate what the user is supposed to do there, but also has written labels to clear things up. This will make the OS easily localizable.
 
 ### Home page
 [usr/Rowan/Home/HomePage.svg]
+```
+=> Play
+=> Radio
+=> Television
+=> Camera
+=> Notepad
+=> WorldMap
+=> FileTree
+=> MyComputer
+=> Chat
+=> Web
+```
 
 ### Play page
 [usr/Rowan/Play/PlayPage.svg]
@@ -31,7 +42,7 @@ The desktop GUI is divided into four pages: Home, Play, Work, and My Computer. E
 	/Rowan
         /Home
 	        HomePage.svg
-            Arcade.link
+            ../Play
             Radio.link
             Television.link
             Camera.link
