@@ -1,5 +1,4 @@
 boot:
-	echo "Hello" >> hello.txt
 	cc cboot.c -o cboot
 dependencies:
 	git clone https://github.com/processing/processing4.git
