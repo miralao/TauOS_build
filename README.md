@@ -16,61 +16,87 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 [usr/Rowan/Home/HomePage.svg]
 ```
 => Play
-=> Radio
-=> Television
-=> Camera
-=> Notepad
-=> WorldMap
-=> FileTree
+=> Work
 => MyComputer
-=> Chat
+=> Camera
 => Web
 ```
 
 ### Play page
 [usr/Rowan/Play/PlayPage.svg]
+```
+=> Arcade
+=> Radio
+=> Jam Maker
+=> Television
+=> Movie Maker
+=> Sketchbook
+=> IRC
+```
 
 ### Work page
 [usr/Rowan/Work/WorkPage.svg]
+```
+=> Canvas
+=> Notepad
+=> StarSheets
+=> StarSlides
+=> Wikipedia
+=> World Explorer
+```
 
 ### My Computer page
 [usr/Rowan/MyComputer/MyComputerPage.svg]
+```
+=> Settings
+=> FileTree
+```
 
 ## Directory structure
 ```
 /usr
 	/Rowan
         /Home
-	        HomePage.svg
             ../Play
-            Radio.link
-            Television.link
-            Camera.link
-            Notepad.link
-            WorldMap.link
-            FileTree.link
-            MyComputer.link
-            Chat.link
-            Web.link
-        /Work
-	        WorkPage.svg
-            EnglishEssay.md
-            LibreText.link
-            Presentation.pptx
+			../Work
+            ../MyComputer
+	        HomePage.svg
+	        Camera.link
+	        Web.link
         /Play
 	        /Art
 	        	Drawing.svg
 	        	Drawing2.xcf
 	        	Drawing3.webp
         	/CameraRoll
-        		IMG_0001.heic
+				IMG_0001.heic
         		IMG_0002.heic
         		IMG_0003.heic
-        	/Media
+			/Media
 	        	ATownCalledPanic.mp4
 	        	PumpIt.wav
 	        	WALL_E.mp4
 	        PlayPage.svg
+			Arcade.link
+            Radio.link
+            JamMaker.link
+            Television.link
+            MovieMaker.link
+			Sketchbook.link
+        /Work
+	        /Documents
+				WorkPage.svg
+	            EnglishEssay.md
+	            Presentation.pptx
+            Canvas.link
+            Notepad.link
+            StarSheets.link
+            StarSlides.link
+            Wikipedia.link
+            WorldExplorer.link
+        /MyComputer
+            Settings.link
+            FileTree.link
 	    /Trash
 	    	PumpIt_cover.wav
 /Applications
