@@ -32,6 +32,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 => Movie Maker
 => Sketchbook
 => IRC
+=> Bluesky
 ```
 
 ### Work page
@@ -83,6 +84,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
             Television.link
             MovieMaker.link
 			Sketchbook.link
+            Bluesky.link
         /Work
 	        /Documents
 				WorkPage.svg
@@ -135,6 +137,7 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 		Firefox.app
 		IRC.link
 		Vimeo.link
+    Bluesky.app
 	CrossyRoad.app
 	DaVinciResolve.app
 	Discord.app
