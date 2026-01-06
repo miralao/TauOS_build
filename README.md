@@ -156,27 +156,5 @@ The desktop GUI is divided into four pages: **Home**, **Play**, **Work**, and **
 
 ## Languages
 Available in:
-* Afrikaans
-* American Sign Language
-* Arabic
-* Cantonese
-* Catalan
-* Chamorro
-* Dansk
-* Deutsch
 * English
 * Español
-* Hand Talk
-* Icelandic
-* Japanese
-* Korean
-* Lao
-* Mandarin
-* Nāuhatl
-* Swahili
-* Tagalog
-* Telugu
-* Thai
-* Turkish
-* Vietnamesee
-* Yue

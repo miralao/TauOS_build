@@ -12,26 +12,5 @@ public class Boot {
     intake = scan.nextLine();
     userName=intake;
     System.out.println(":> Got it. Let's roll, [" + userName +"]!");
-
-    System.out.print(":> What file should I read?\n->");
-    intake = scan.nextLine();
-    File image = new File(intake);
-    
-    try (Scanner myReader = new Scanner(image)) {
-      while (myReader.hasNextLine()) {
-        String data = myReader.nextLine();
-        System.out.println(data);
-      }
-    } catch (FileNotFoundException e) {
-      System.out.println("An error occurred.");
-      e.printStackTrace();
-    }
-    // byte WIDTH = 16;
-    // for (int a = 0; a < WIDTH/4; a++) {
-    //     for (int b = 0; b < WIDTH; b++) {
-    //     	System.out.print("X");
-    //     }
-    //     System.out.println();
-    // }
   }
 }
